@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+      
+          <meta charset="utf-8"/>
+
+    </head>
+
+
+    <body>
+
+        <h1>Donnees utilisateur</h1>
+
+    <form method="post" action="testfile.php">  <!--   <form method="post" action="abcde.php"> -->
+
+      <p> Entrez Nom : </p> 
+       <input type="text" name="name" />
+
+           <p> Entrez Prenom : </p> 
+       <input type="text" name="prenom" />
+
+           <p> Entrez Date de naissance: </p> 
+       <input type="date" name="date" />
+
+           <p> Entrez Sport: </p> 
+       <select name="sport">
+       <option value="football">Football</option>
+       <option value="basket">Basket</option>
+       <option value="rugby">Rugby</option>
+       </select>
+
+           <p> Entrez Sexe: </p> 
+       <input type="radio" name="sexe" value="feminin"/> Feminin
+       <input type="radio" name="sexe" value="masculin"/> Masculin
+
+           <p> Entrez MDP : </p> 
+       <input type="password" name="mdp"/>
+
+           <p> Entrez Email : </p> 
+       <input type="e-mail" name="email" />
+
+
+           <p> Entrez Photo : </p> 
+       <input type="file" name="monfichier" />
+
+
+             <input type="submit" value="Soumettre" />
+
+        </form>
+ 
+    </body>
+
+    </html>

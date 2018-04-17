@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8"/>
+        <title> Aller voir le mur d'un ami</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    </head>
+
+
+    <body>
+        <h1> Social Media ECE </h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-4 col-lg-4 col-lg-offset-4">
+
+                    <div class="panel panel-default box-shadow">
+                        <div class="panel-heading block-center ">
+                            <span class="text-primary center-block ">Visite du mur d'un ami</span>
+                            <span class="text-muted pull-right today" title="Today"></span>              
+                        </div><!--.panel-heading-->
+
+                        <div class="panel-body text-center">
+
+                            <form method="post" action="mur_friend.php"> 
+
+                                <p> Entrez le pseudo de l'ami dont vous voulez voir le mur : </p> 
+
+                                <input type="text" name="pseudoami"><p></p>
+
+                                <input type="submit" value="Soumettre" class="btn btn-block btn-primary">
+
+                                <a href="amis.php"><button type="button" name="retour" class="btn btn-block btn-danger">Retour</button></a>
+
+                            </form>
+                        </div>
+                    </div><!--.panel-->
+                </div><!--.cols-->
+            </div><!--.row-->
+        </div><!--.container-->
+
+
+
+
+    </body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8"/>
+        <title> Supprimer un utilisateur </title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+    </head>
+
+
+    <body>
+        <h1>Social Media ECE</h1>
+
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-4 col-lg-4 col-lg-offset-4">
+
+                    <div class="panel panel-default box-shadow">
+                        <div class="panel-heading">
+                            <span class="text-primary">Suppression </span>
+                            <span class="text-muted pull-right today" title="Today"></span>              
+                        </div><!--.panel-heading-->
+
+                        <div class="panel-body">
+                            <form method="post" action="supprimer_utilisateur.php">  
+                                <p> Entrez Nom : </p> 
+                                <input type="text" name="nom" />
+
+                                <p> Entrez Pseudo : </p> 
+                                <input type="text" name="pseudo" />
+
+                                <p> Entrez E-mail ECE : </p> 
+                                <input type="text" name="email" />
+                                  <a href="accueil4.html"><button type="button" name="retour" class="btn btn-block btn-primary">Retour</button></a>
+
+            <input type="submit" value="Supprimer" class="btn btn-block btn-danger"/>
+
+                            </form>
+                        </div>
+                    </div><!--.panel-->
+                </div><!--.cols-->
+            </div><!--.row-->
+        </div><!--.container-->
+
+
+
+
+        <form method="post" action="supprimer_utilisateur.php">  
+
+
+
+
+          
+
+        </form>
+           <footer>
+        <p>© 2017, All rights reserved 2017. Site crée par Hugo, Lena et Adrien</p>
+    </footer>
+
+
+    </body>
+
+</html>

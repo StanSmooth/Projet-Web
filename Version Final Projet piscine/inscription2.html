@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <meta charset="utf-8"/>
+        <title> Inscription </title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="footer.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+        <h1>Social Media ECE</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3 col-md-5 col-md-offset-4 col-lg-4 col-lg-offset-4">
+
+                    <div class="panel panel-default box-shadow">
+                        <div class="panel-heading">
+                            <span class="text-primary">Inscription</span>
+                            <span class="text-muted pull-right today" title="Today"></span>              
+                        </div><!--.panel-heading-->
+
+                        <div class="panel-body">
+                            <form method="post" action="inscription_user.php" enctype="multipart/form-data">  <!--   <form method="post" action="abcde.php"> -->
+
+                                <p> Entrez E-mail : </p> 
+                                <input type="text" name="email" />
+
+                                <p> Entrez Pseudo : </p> 
+                                <input type="text" name="pseudo" />
+
+                                <p> Entrez Nom : </p> 
+                                <input type="text" name="nom" />
+
+                                <p> Entrez MDP : </p> 
+                                <input type="password" name="mdp"/>
+
+                                <p> Entrez Photo de profil : </p> 
+                                <input type="file" name="profil" />
+
+                                <p> Entrez Image preferee : </p> 
+                                <input type="file" name="couverture" />
+
+                                <p> Entrez Age : </p> 
+                                <input type="number" name="age" />
+
+                                <p> Entrez Ville : </p> 
+                                <input type="text" name="ville" />
+
+                                <p> Entrez Date de naissance: </p> 
+                                <input type="date" name="date_naiss" />
+
+                                <p> Entrez N° de tel  : </p> 
+                                <input type="text" name="num" />
+
+                                <p> Majeure : </p> 
+                                <select name="majeure">
+                                    <option value="Energie et environnement">Energie et environnement</option>
+                                    <option value="Finance">Finance</option>
+                                    <option value="Systèmes d'informations">Systèmes d'informations</option>
+                                    <option value="Systèmes embarques">Systèmes embarques</option>
+                                    <option value="Sante">Sante</option>
+                                    <option value="Objets connectes">Objets connectes</option>
+                                </select>
+                                <p></p>
+
+
+                                <input type="submit" value="S'inscrire" class="btn btn-block btn-success"/>
+
+                            </form>
+                        </div>
+                    </div><!--.panel-->
+                </div><!--.cols-->
+            </div><!--.row-->
+        </div><!--.container-->
+           <footer>Site créé par OGBI Lena, Massis Hugo et KOURGANOFF Adrien Copyright &copy; 2017 ECE Paris <br />
+    </footer>
+    </body>
+
+
+ 
+</html>
